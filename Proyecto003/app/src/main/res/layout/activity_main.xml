@@ -48,7 +48,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="288dp"
         android:onClick="operar"
         android:text="Operar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,8 +71,8 @@
         app:layout_constraintVertical_bias="0.428" />
 
     <RadioGroup
-        android:layout_width="176dp"
-        android:layout_height="196dp"
+        android:layout_width="237dp"
+        android:layout_height="216dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -82,10 +82,8 @@
 
         <RadioButton
             android:id="@+id/r2"
-            android:layout_width="83dp"
+            android:layout_width="103dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginLeft="100dp"
             android:text="restar" />
 
         <RadioButton
